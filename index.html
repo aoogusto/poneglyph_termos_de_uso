@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Terms of Service</title>
+    <title>Termos de Serviço</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <script>
       function changeLanguage() {
         var language = document.getElementById("language").value;
+        var termsDiv = document.getElementById("terms");
         if (language === "pt-br") {
-          // Carregar o conteúdo em português
+          termsDiv.innerHTML = '<object type="text/html" data="terms-pt.html" ></object>';
         } else if (language === "en") {
-          // Carregar o conteúdo em inglês
+          termsDiv.innerHTML = '<object type="text/html" data="terms-en.html" ></object>';
         } else if (language === "es") {
-          // Carregar o conteúdo em espanhol
+          termsDiv.innerHTML = '<object type="text/html" data="terms-es.html" ></object>';
         }
       }
     </script>
@@ -29,7 +30,28 @@
       </select>
     </header>
     <main>
-      <!-- O conteúdo do site vai aqui -->
+      <div id="terms">
+        <h1>Termos de Serviço para o Bot Poneglyph do Discord</h1>
+
+        <h2>1. Aceitação dos Termos de Serviço</h2>
+        <p>Ao utilizar o nosso Bot do Discord, você está aceitando estes Termos de Serviço. Caso não concorde com estes termos, por favor, não utilize o bot.</p>
+
+        <h2>2. Descrição do Serviço</h2>
+        <p>O bot fornece informações sobre o MMORPG ambientado no mundo de One Piece chamado Grand Line Adventures, um jogo feito por fãs. Todas as informações do bot são retiradas deste jogo. Os comandos do bot são principalmente para reunir informações úteis para ajudar os membros da comunidade que jogam e quem estiver interessado.</p>
+
+        <h2>3. Uso Apropriado</h2>
+        <p>O uso apropriado deve ser somente para informar-se. É proibido utilizar o bot para qualquer objetivo ilegal, ofensivo, difamatório, invasivo da privacidade de outra pessoa, ou prejudicial de qualquer forma.</p>
+
+        <h2>4. Modificações</h2>
+        <p>Os termos podem mudar a qualquer momento. Recomendamos que você revise regularmente estes Termos de Serviço.</p>
+
+        <h2>5. Limitação de Responsabilidade</h2>
+        <p>O bot não garante nenhuma informação 100% precisa, mas o foco é manter sempre atualizado. Em caso de dúvidas, acesse o Discord ou confira o perfil do bot onde diz a última atualização.</p>
+
+        <h2>6. Contato</h2>
+        <p>Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco através do <a href="https://discord.gg/49SZdgvku4">Discord</a>. Nosso usuário é: aoogusto.</p>
+    </main>
+      </div>
     </main>
     <script src="index.js"></script>
   </body>
