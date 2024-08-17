@@ -23,14 +23,29 @@ header {
   color: white;
 }
 
-.social-icons a {
-  margin-left: 10px;
+.language-selector select {
+  background-color: #333;
+  color: white;
+  border: 1px solid white;
+  padding: 2px 5px;
+  border-radius: 3px;
 }
 
-.social-icons img {
-  width: 24px;
-  height: 24px;
-  filter: invert(100%);
+.social-icons a {
+  margin-left: 15px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.social-icons a[title="Discord"] i {
+  color: #7289da; /* Cor azul do Discord */
+}
+
+social-icons a[title="Twitch"] i {
+  color: #9146ff; /* Cor roxa do Twitch */
 }
 
 main {
