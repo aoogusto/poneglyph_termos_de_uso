@@ -42,12 +42,21 @@ header {
 }
 
 .social-links a {
-    margin: 0 10px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
 }
 
-.social-icon {
-    width: 60px;  /* Ajuste o tamanho dos ícones */
-    height: 60px;
+.social-links a i {
+    margin-right: 8px;
+    font-size: 24px; /* Tamanho dos ícones */
+}
+
+.social-links a:hover {
+    color: #007bff; /* Cor ao passar o mouse */
 }
 
 section#terms {
