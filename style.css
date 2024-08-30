@@ -21,16 +21,15 @@ header {
 }
 
 .bot-icon-small {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     margin-right: 10px;
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
-    font-weight: 700;
+    font-family: 'Oswald', sans-serif;  /* Fonte Oswald */
+    font-weight: 600;  /* Peso moderado */
     color: white;
-    text-shadow: 2px 2px 4px #000080;  /* Traçado azul escuro */
 }
 
 .language-selector select {
@@ -47,20 +46,29 @@ h1 {
 }
 
 .social-links a {
-    font-family: 'Anton', sans-serif;  /* Fonte Anton para os links */
-    font-weight: 700;
+    font-family: 'Oswald', sans-serif;  /* Fonte Oswald para os links */
+    font-weight: 600;
     margin: 0 10px;
     text-decoration: none;
     color: #333;  /* Cor padrão */
+    display: flex;
+    align-items: center;
     transition: color 0.3s ease;
 }
 
-.social-links a:hover .fa-discord {
+.social-links a:hover {
     color: #7289da;  /* Cor oficial do Discord ao passar o mouse */
 }
 
-.social-links a:hover .fa-twitch {
+.social-links a.twitch:hover {
     color: #9146ff;  /* Cor oficial do Twitch ao passar o mouse */
+}
+
+.social-icon {
+    margin-right: 8px;  /* Espaçamento entre ícone e texto */
+    font-size: 1.5em;  /* Tamanho do ícone ajustado */
+    color: inherit;  /* Herda a cor do link ao qual pertence */
+    transition: color 0.3s ease;  /* Transição suave */
 }
 
 section#terms {
