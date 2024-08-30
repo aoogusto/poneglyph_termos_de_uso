@@ -40,19 +40,23 @@ h1 {
     border: none;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
 .social-links a {
     margin: 0 10px;
+    transition: color 0.3s ease;  /* Adiciona uma transição suave */
 }
 
 .social-icon {
     font-size: 40px;
-    color: #333;
+    color: #333;  /* Cor padrão dos ícones */
+    transition: color 0.3s ease;  /* Transição suave ao mudar de cor */
+}
+
+.social-links a:hover .fa-discord {
+    color: #7289da;  /* Cor oficial do Discord */
+}
+
+.social-links a:hover .fa-twitch {
+    color: #9146ff;  /* Cor oficial do Twitch */
 }
 
 section#terms {
