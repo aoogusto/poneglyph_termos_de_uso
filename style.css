@@ -27,8 +27,8 @@ header {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;  /* Fonte Oswald */
-    font-weight: 600;  /* Peso moderado */
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
     color: white;
 }
 
@@ -46,29 +46,29 @@ h1 {
 }
 
 .social-links a {
-    font-family: 'Oswald', sans-serif;  /* Fonte Oswald para os links */
+    font-family: 'Oswald', sans-serif;
     font-weight: 600;
     margin: 0 10px;
     text-decoration: none;
-    color: #333;  /* Cor padrão */
+    color: #333;
     display: flex;
     align-items: center;
     transition: color 0.3s ease;
 }
 
-.social-links a:hover {
-    color: #7289da;  /* Cor oficial do Discord ao passar o mouse */
+.social-links a.discord:hover {
+    color: #7289da;  /* Cor do Discord */
 }
 
 .social-links a.twitch:hover {
-    color: #9146ff;  /* Cor oficial do Twitch ao passar o mouse */
+    color: #9146ff;  /* Cor do Twitch */
 }
 
 .social-icon {
-    margin-right: 8px;  /* Espaçamento entre ícone e texto */
-    font-size: 1.5em;  /* Tamanho do ícone ajustado */
+    margin-right: 8px;
+    font-size: 1.5em;
     color: inherit;  /* Herda a cor do link ao qual pertence */
-    transition: color 0.3s ease;  /* Transição suave */
+    transition: color 0.3s ease;
 }
 
 section#terms {
@@ -82,7 +82,7 @@ section#terms {
 
 h2 {
     text-align: center;
-    font-weight: 700;  /* Peso mais grosso para o subtítulo */
+    font-weight: 700;
 }
 
 ol {
