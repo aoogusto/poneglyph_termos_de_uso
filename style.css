@@ -1,10 +1,11 @@
-/* Aplicar a fonte Anton */
-body, h1, .social-links a {
-    font-family: 'Anton', sans-serif;
-}
+/* Adicione ou substitua o código existente por este */
 
-.anton-font {
-    font-family: 'Anton', sans-serif;
+body {
+    font-family: Arial, sans-serif;  /* Define uma fonte padrão para todo o texto */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -22,9 +23,20 @@ header {
 }
 
 .bot-icon-small {
-    width: 30px;
+    width: 30px;  /* Ajuste o tamanho da logo */
     height: 30px;
     margin-right: 10px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;  /* Fonte personalizada apenas para o título PONEGLYPH */
+}
+
+.language-selector select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
 }
 
 .social-links {
@@ -34,22 +46,13 @@ header {
 }
 
 .social-links a {
-    margin: 0 15px;
-    text-decoration: none;  /* Remove o sublinhado */
-    font-size: 20px;
-    color: #333;
-    display: flex;
-    align-items: center;
-    transition: color 0.3s ease;  /* Suaviza a transição de cor */
+    margin: 0 10px;
 }
 
-.social-links a i {
-    margin-right: 8px;
-    font-size: 24px;  /* Tamanho dos ícones */
-}
-
-.social-links a:hover {
-    color: #007bff;  /* Cor ao passar o mouse */
+.social-icon {
+    width: 40px;  /* Ajuste o tamanho dos ícones */
+    height: 40px;
+    fill: currentColor;  /* Define a cor dos ícones com base na cor do texto */
 }
 
 section#terms {
