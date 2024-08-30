@@ -1,6 +1,5 @@
 body {
-    font-family: Arial, sans-serif;  /* Use uma fonte mais leve e comum */
-    font-weight: 400;  /* Peso padrão para o corpo do texto */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -22,15 +21,16 @@ header {
 }
 
 .bot-icon-small {
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
 
 h1 {
     font-family: 'Anton', sans-serif;
-    font-weight: 700;  /* Peso mais grosso apenas para o título */
-    color: #333;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px #000080;  /* Traçado azul escuro */
 }
 
 .language-selector select {
@@ -40,23 +40,27 @@ h1 {
     border: none;
 }
 
-.social-links a {
-    margin: 0 10px;
-    transition: color 0.3s ease;  /* Adiciona uma transição suave */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
-.social-icon {
-    font-size: 40px;
-    color: #333;  /* Cor padrão dos ícones */
-    transition: color 0.3s ease;  /* Transição suave ao mudar de cor */
+.social-links a {
+    font-family: 'Anton', sans-serif;  /* Fonte Anton para os links */
+    font-weight: 700;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;  /* Cor padrão */
+    transition: color 0.3s ease;
 }
 
 .social-links a:hover .fa-discord {
-    color: #7289da;  /* Cor oficial do Discord */
+    color: #7289da;  /* Cor oficial do Discord ao passar o mouse */
 }
 
 .social-links a:hover .fa-twitch {
-    color: #9146ff;  /* Cor oficial do Twitch */
+    color: #9146ff;  /* Cor oficial do Twitch ao passar o mouse */
 }
 
 section#terms {
@@ -75,11 +79,11 @@ h2 {
 
 ol {
     padding-left: 20px;
-    font-size: 16px;  /* Tamanho de fonte legível */
-    line-height: 1.6;  /* Espaçamento entre linhas para melhor leitura */
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 ol li {
     margin-bottom: 15px;
-    font-weight: 400;  /* Peso padrão para o texto das listas */
+    font-weight: 400;
 }
