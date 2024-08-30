@@ -1,6 +1,6 @@
 const terms = {
   pt: `
-      <h2>Termos de Serviço do Bot Discord Poneglyph</h2>
+      <h2>Termos de Serviço</h2>
       <ol>
           <li><strong>Aceitação dos Termos de Serviço:</strong> Ao utilizar o bot Poneglyph, você concorda com estes Termos de Serviço. Caso não concorde com qualquer parte dos termos, solicitamos que interrompa imediatamente o uso do bot.</li>
           <li><strong>Descrição do Serviço:</strong> O Poneglyph é um bot de utilidade desenvolvido para fornecer informações relacionadas ao MMORPG Grand Line Adventures (GLA), um jogo ambientado no universo de One Piece, criado por fãs. O bot é projetado para facilitar o acesso a dados úteis, auxiliando jogadores e membros da comunidade de GLA. Todas as informações fornecidas pelo bot são extraídas diretamente do jogo ou de fontes associadas.</li>
@@ -9,7 +9,7 @@ const terms = {
       </ol>
   `,
   en: `
-      <h2>Poneglyph Discord Bot Terms of Service</h2>
+      <h2>Terms of Service</h2>
       <ol>
           <li><strong>Acceptance of Terms:</strong> By using the Poneglyph bot, you agree to these Terms of Service. If you do not agree with any part of the terms, please stop using the bot immediately.</li>
           <li><strong>Service Description:</strong> Poneglyph is a utility bot developed to provide information related to the MMORPG Grand Line Adventures (GLA), a fan-made game set in the One Piece universe. The bot is designed to facilitate access to useful data, helping players and members of the GLA community. All information provided by the bot is directly extracted from the game or associated sources.</li>
@@ -18,7 +18,7 @@ const terms = {
       </ol>
   `,
   es: `
-      <h2>Términos de Servicio del Bot de Discord Poneglyph</h2>
+      <h2>Términos de Servicio</h2>
       <ol>
           <li><strong>Aceptación de los Términos:</strong> Al utilizar el bot Poneglyph, usted acepta estos Términos de Servicio. Si no está de acuerdo con alguna parte de los términos, por favor deje de usar el bot inmediatamente.</li>
           <li><strong>Descripción del Servicio:</strong> Poneglyph es un bot de utilidad desarrollado para proporcionar información relacionada con el MMORPG Grand Line Adventures (GLA), un juego creado por fans ambientado en el universo de One Piece. El bot está diseñado para facilitar el acceso a datos útiles, ayudando a jugadores y miembros de la comunidad de GLA. Toda la información proporcionada por el bot se extrae directamente del juego o de fuentes asociadas.</li>
