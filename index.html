@@ -1,40 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Terms of Service</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMAREnJ3o2v5FgsWxj9qc1HE5A1eFA5JWZ0jQeM" crossorigin="anonymous">
-  </head>
-  <body>
-    <header>
-      <div class="header-content">
-        <img src="path_to_bot_icon.png" alt="Bot Icon" class="bot-icon">
-        <h1 class="bot-title">PONEGLYPH</h1>
-      </div>
-      <div class="social-icons">
-        <a href="https://discord.gg/gurren" target="_blank" title="Discord">
-          <i class="fab fa-discord"></i>
-        </a>
-        <a href="https://www.twitch.tv/gvrren" target="_blank" title="Twitch">
-          <i class="fab fa-twitch"></i>
-        </a>
-      </div>
-      <div class="language-selector">
-        <label for="language">Language:</label>
-        <select id="language" onchange="changeLanguage()">
-          <option value="en">English</option>
-          <option value="pt">Português</option>
-          <option value="es">Español</option>
-        </select>
-      </div>
-    </header>
-    <main id="content">
-      <!-- O conteúdo será carregado via JavaScript -->
-    </main>
-    <script src="index.js"></script>
-  </body>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termos de Serviço - Poneglyph</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="path/to/your-bot-icon.png">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="/icon.gif" alt="Poneglyph Icon" class="bot-icon">
+      <h1>PONEGLYPH</h1>
+    </div>
+    <div class="language-selector">
+      <label for="language">Idioma:</label>
+      <select id="language" onchange="changeLanguage()">
+        <option value="pt">Português</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+  </header>
+
+  <div class="social-links">
+    <a href="https://discord.com/your-discord-link" target="_blank">
+      <img src="/discord.png" alt="Discord">
+    </a>
+    <a href="https://twitch.tv/your-twitch-link" target="_blank">
+      <img src="/twitch.png" alt="Twitch">
+    </a>
+  </div>
+
+  <section id="terms">
+    <h2>Termos de Serviço do Bot Discord Poneglyph</h2>
+    <ol>
+      <li><strong>Aceitação dos Termos de Serviço:</strong> Ao utilizar o bot Poneglyph, você concorda com estes Termos
+        de Serviço. Caso não concorde com qualquer parte dos termos, solicitamos que interrompa imediatamente o uso do
+        bot.</li>
+      <li><strong>Descrição do Serviço:</strong> O Poneglyph é um bot de utilidade desenvolvido para fornecer
+        informações relacionadas ao MMORPG Grand Line Adventures (GLA), um jogo ambientado no universo de One Piece,
+        criado por fãs. O bot é projetado para facilitar o acesso a dados úteis, auxiliando jogadores e membros da
+        comunidade de GLA. Todas as informações fornecidas pelo bot são extraídas diretamente do jogo ou de fontes
+        associadas.</li>
+      <li><strong>Modificações nos Termos:</strong> Estes Termos de Serviço podem ser alterados a qualquer momento, sem
+        aviso prévio. É responsabilidade do usuário revisar periodicamente os termos para se manter informado sobre
+        possíveis mudanças. O uso continuado do bot após a modificação dos termos implicará na aceitação das novas
+        condições.</li>
+      <li><strong>Limitação de Responsabilidade:</strong> O Poneglyph se esforça para fornecer informações precisas e
+        atualizadas, porém, não há garantia de que todas as informações estejam completamente corretas ou atualizadas. O
+        uso das informações fornecidas pelo bot é de responsabilidade exclusiva do usuário. Em caso de dúvidas ou para
+        verificar a última atualização, recomendamos que acesse o perfil do bot ou o canal de suporte no Discord.</li>
+    </ol>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
 </html>
