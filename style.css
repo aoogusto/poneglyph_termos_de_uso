@@ -1,10 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('path_to_background_image.jpg');
-  background-size: cover;
-  color: #333;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 header {
@@ -12,108 +11,60 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #282c34;
   color: white;
 }
 
-.header-content {
+.logo {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
 }
 
 .bot-icon {
+  width: 50px;
   height: 50px;
   margin-right: 15px;
 }
 
-.bot-title {
-  font-family: 'Anton', sans-serif;
-  font-size: 36px;
-  color: #00bfff;
-  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
-  animation: glow 1.5s infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
-  }
-  to {
-    text-shadow: 0 0 20px #00bfff, 0 0 30px #00bfff, 0 0 40px #00bfff;
-  }
-}
-
-.language-selector {
-  font-size: 14px;
-}
-
-.language-selector label, .language-selector select {
-  color: white;
-}
-
 .language-selector select {
-  background-color: #333;
-  color: white;
-  border: 1px solid white;
-  padding: 2px 5px;
-  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
 }
 
-.social-icons a {
-  margin-left: 15px;
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-.social-icons i {
-  font-size: 24px;
-  color: #fff;
+.social-links a {
+  margin: 0 10px;
 }
 
-.social-icons a[title="Discord"] i {
-  color: #7289da; /* Cor azul do Discord */
+.social-links img {
+  width: 40px;
+  height: 40px;
 }
 
-.social-icons a[title="Twitch"] i {
-  color: #9146ff; /* Cor roxa do Twitch */
-}
-
-main {
-  padding: 20px;
+section#terms {
   max-width: 800px;
-  margin: 20px auto;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 8px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  min-height: 600px; /* Altura mínima fixa para evitar ajustes dinâmicos */
-}
-
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 20px;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
 
-h2 i {
-  margin-right: 10px;
+ol {
+  padding-left: 20px;
 }
 
-p {
-  margin: 10px 0;
-  line-height: 1.6;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+ol li {
+  margin-bottom: 15px;
 }
