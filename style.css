@@ -1,70 +1,72 @@
+/* Adicione ou substitua o código existente por este */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #282c34;
-  color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.bot-icon {
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
+.bot-icon-small {
+    width: 30px;  /* Ajuste o tamanho da logo */
+    height: 30px;
+    margin-right: 10px;
 }
 
 .language-selector select {
-  padding: 5px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .social-links a {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
-.social-links img {
-  width: 40px;
-  height: 40px;
+.social-icon {
+    width: 40px;  /* Ajuste o tamanho dos ícones */
+    height: 40px;
 }
 
 section#terms {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  text-align: center;
+    text-align: center;
 }
 
 ol {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 ol li {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
