@@ -7,16 +7,13 @@
     <title>Terms of Service</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMAREnJ3o2v5FgsWxj9qc1HE5A1eFA5JWZ0jQeM" crossorigin="anonymous">
   </head>
   <body>
     <header>
-      <div class="language-selector">
-        <label for="language">Language:</label>
-        <select id="language" onchange="changeLanguage()">
-          <option value="en">English</option>
-          <option value="pt">Português</option>
-        </select>
+      <div class="header-content">
+        <img src="path_to_bot_icon.png" alt="Bot Icon" class="bot-icon">
+        <h1 class="bot-title">PONEGLYPH</h1>
       </div>
       <div class="social-icons">
         <a href="https://discord.gg/gurren" target="_blank" title="Discord">
@@ -25,6 +22,14 @@
         <a href="https://www.twitch.tv/gvrren" target="_blank" title="Twitch">
           <i class="fab fa-twitch"></i>
         </a>
+      </div>
+      <div class="language-selector">
+        <label for="language">Language:</label>
+        <select id="language" onchange="changeLanguage()">
+          <option value="en">English</option>
+          <option value="pt">Português</option>
+          <option value="es">Español</option>
+        </select>
       </div>
     </header>
     <main id="content">
