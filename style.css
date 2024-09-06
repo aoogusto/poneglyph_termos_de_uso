@@ -32,11 +32,24 @@ h1 {
     color: white;
 }
 
-.language-selector select {
-    padding: 5px;
-    font-size: 16px;
+.language-selector {
+    display: flex;
+    align-items: center;
+}
+
+.language-icon {
+    margin-left: 10px;
+}
+
+.flag-icon {
+    width: 30px;
+    height: auto;
     border-radius: 5px;
-    border: none;
+    transition: transform 0.3s ease;
+}
+
+.flag-icon:hover {
+    transform: scale(1.1);
 }
 
 .social-links {
@@ -57,17 +70,17 @@ h1 {
 }
 
 .social-links a.discord:hover {
-    color: #7289da;  /* Cor do Discord */
+    color: #7289da;
 }
 
 .social-links a.twitch:hover {
-    color: #9146ff;  /* Cor do Twitch */
+    color: #9146ff;
 }
 
 .social-icon {
     margin-right: 8px;
     font-size: 1.5em;
-    color: inherit;  /* Herda a cor do link ao qual pertence */
+    color: inherit;
     transition: color 0.3s ease;
 }
 
