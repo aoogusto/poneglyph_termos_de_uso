@@ -29,12 +29,12 @@ uso de la información proporcionada por el bot es responsabilidad exclusiva del
     `
 };
 
-function changeLanguage() {
-  const language = document.getElementById('language').value;
+// Função que recebe o idioma como parâmetro e atualiza o conteúdo da página
+function changeLanguage(language) {
   document.getElementById('terms').innerHTML = terms[language];
 }
 
-// Set default language to Portuguese on page load
+// Define o idioma padrão como Português ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('terms').innerHTML = terms['pt'];
 });
